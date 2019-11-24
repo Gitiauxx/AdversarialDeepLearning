@@ -16,3 +16,12 @@ neural networks do not learn the true data manifold and
 Adversarial examples are input to trick the neural network. 
 Changes are imperceptible to human perception. 
 Here attacks are white box attacks with access to model parameters.
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="_drafts/advesarial.md">Adversarial Deep Learning</a>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
